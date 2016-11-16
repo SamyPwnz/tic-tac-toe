@@ -9,3 +9,4 @@ circle.setAttribute("r" ,35)
 circle.setAttribute("fill","red")
 var.canvas = document.getElementById("game-board")
 canvas.appendChild(circle)
+}
