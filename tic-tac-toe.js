@@ -37,10 +37,21 @@ canvas.appendChild(circle)
 function Shape4() {
 
 var circle = document.createElementNS(namespace, "circle")
-circle.setAttribute("cy" ,70)
-circle.setAttribute("cx" ,15)
-circle.setAttribute("r" 135)
+circle.setAttribute("cy" ,165)
+circle.setAttribute("cx" ,65)
+circle.setAttribute("r" ,35)
 circle.setAttribute("fill","red")
+var canvas = document.getElementById("game-board")
+canvas.appendChild(circle)
+}
+
+function Shape5() {
+
+var circle = document.createElementNS(namespace, "circle")
+circle.setAttribute("cy" ,165)
+circle.setAttribute("cx" ,155)
+circle.setAttribute("r" ,35)
+circle.setAttribute("fill","green")
 var canvas = document.getElementById("game-board")
 canvas.appendChild(circle)
 }
