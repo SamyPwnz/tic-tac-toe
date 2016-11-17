@@ -55,3 +55,14 @@ circle.setAttribute("fill","green")
 var canvas = document.getElementById("game-board")
 canvas.appendChild(circle)
 }
+
+function Shape6() {
+
+var circle = document.createElementNS(namespace, "circle")
+circle.setAttribute("cy" ,165)
+circle.setAttribute("cx" ,255)
+circle.setAttribute("r" ,35)
+circle.setAttribute("fill","red")
+var canvas = document.getElementById("game-board")
+canvas.appendChild(circle)
+}
