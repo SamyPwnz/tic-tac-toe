@@ -187,12 +187,12 @@ var canvas = document.getElementById("game-board")
 canvas.appendChild(circle)
 canvas.appendChild(circle)
 canvas.appendChild(circle)
-circle.setAttribute("cy" ,255)
+circle.setAttribute("cy" ,125)
 circle.setAttribute("cx" ,255)
 circle.setAttribute("r" ,35)
 circle.setAttribute("fill","red")
 var canvas = document.getElementById("game-board")
 canvas.appendChild(circle)
-turn ="player1"
+turn ="player1" ``
 }
 }
